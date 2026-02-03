@@ -1,0 +1,62 @@
+.height-600 {
+    height: 689px;
+    width:100%;
+    object-fit: cover;
+}
+
+.caro {
+position: relative;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35,45,57,0.8);
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa ;
+}
+
+.content p {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 84px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.content h6 {
+    margin-top: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.content em {
+    color: #ed563b;
+    font-style: normal;
+}
+
+@media (max-width:1000px) {
+    .content p {
+        font-size: 50px;
+    }
+}
